@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Seedance 2.0 Skills 用途地图</title>
+  <desc id="desc">一张中文信息图，按创作入口、提示词生产、导演控制、安全修复、工作流交付和多语言工具解释 Seedance 2.0 skills 的实际用途。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101820"/>
+      <stop offset="0.45" stop-color="#14252f"/>
+      <stop offset="1" stop-color="#0d141a"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="15%" cy="18%" r="55%">
+      <stop offset="0" stop-color="#ffb86b" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#ffb86b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="84%" cy="20%" r="52%">
+      <stop offset="0" stop-color="#65d7c1" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#65d7c1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="50%" cy="92%" r="55%">
+      <stop offset="0" stop-color="#7897ff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7897ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <style>
+      .bg { fill: url(#bg); }
+      .noise { opacity: .08; }
+      .title { font: 800 58px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #fff7e8; letter-spacing: -1px; }
+      .subtitle { font: 400 24px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #c8d6d8; }
+      .small { font: 400 18px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #b9c7c9; }
+      .label { font: 700 23px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #102024; }
+      .groupTitle { font: 800 28px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #fff8e7; }
+      .groupHint { font: 400 17px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #b8c8cb; }
+      .cardTitle { font: 800 21px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #f8fbf7; }
+      .cardText { font: 400 16px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #cbd7d7; }
+      .micro { font: 600 14px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #91a5a8; }
+      .chipText { font: 700 15px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; fill: #132126; }
+      .panel { fill: rgba(255,255,255,.075); stroke: rgba(255,255,255,.16); stroke-width: 1.4; }
+      .card { fill: rgba(255,255,255,.085); stroke: rgba(255,255,255,.15); stroke-width: 1.2; }
+      .line { stroke: rgba(238,245,239,.35); stroke-width: 2; fill: none; stroke-linecap: round; }
+      .arrow { fill: #eaf4ec; opacity: .78; }
+    </style>
+    <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="11" r="1.1" fill="#fff"/>
+      <circle cx="39" cy="22" r=".8" fill="#fff"/>
+      <circle cx="73" cy="9" r=".9" fill="#fff"/>
+      <circle cx="21" cy="64" r=".7" fill="#fff"/>
+      <circle cx="58" cy="78" r="1" fill="#fff"/>
+      <circle cx="84" cy="48" r=".65" fill="#fff"/>
+    </pattern>
+  </defs>
+
+  <rect class="bg" width="1800" height="1120"/>
+  <rect width="1800" height="1120" fill="url(#glowA)"/>
+  <rect width="1800" height="1120" fill="url(#glowB)"/>
+  <rect width="1800" height="1120" fill="url(#glowC)"/>
+  <rect class="noise" width="1800" height="1120" fill="url(#grain)"/>
+
+  <text class="title" x="80" y="92">Seedance 2.0 Skills 用途地图</text>
+  <text class="subtitle" x="82" y="132">把“想法”变成“可生成、可修复、可交付”的视频提示词工作台</text>
+  <text class="small" x="82" y="166">总控：seedance-2.0 负责识别任务类型，并调用下方专项 skill 组合拳。</text>
+
+  <g transform="translate(1320 62)">
+    <rect x="0" y="0" width="380" height="104" rx="26" fill="#fff3cf" opacity=".96"/>
+    <text class="label" x="28" y="42">怎么读这张图</text>
+    <text x="28" y="72" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="17" fill="#31444a">从左到右：构思 → 编写 → 导演控制</text>
+    <text x="28" y="96" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="17" fill="#31444a">底部：安全修复、语言、示例与交付</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="panel" x="70" y="220" width="365" height="610" rx="34"/>
+    <rect class="panel" x="475" y="220" width="365" height="610" rx="34"/>
+    <rect class="panel" x="880" y="220" width="365" height="610" rx="34"/>
+    <rect class="panel" x="1285" y="220" width="445" height="610" rx="34"/>
+  </g>
+
+  <g transform="translate(100 255)">
+    <text class="groupTitle" x="0" y="0">1. 创作入口</text>
+    <text class="groupHint" x="0" y="31">当你还在“想拍什么”的阶段</text>
+    <g transform="translate(0 68)">
+      <rect class="card" width="305" height="112" rx="22"/>
+      <text class="cardTitle" x="22" y="34">seedance-interview</text>
+      <text class="cardText" x="22" y="64">导演式访谈，帮你从粗略想法</text>
+      <text class="cardText" x="22" y="89">提炼成可执行的视频方案。</text>
+    </g>
+    <g transform="translate(0 204)">
+      <rect class="card" width="305" height="112" rx="22"/>
+      <text class="cardTitle" x="22" y="34">interview-short</text>
+      <text class="cardText" x="22" y="64">快速简报版：少问几句，</text>
+      <text class="cardText" x="22" y="89">迅速得到创意方向。</text>
+    </g>
+    <g transform="translate(0 340)">
+      <rect class="card" width="305" height="136" rx="22"/>
+      <text class="cardTitle" x="22" y="35">seedance-recipes</text>
+      <text class="cardText" x="22" y="66">套用成熟模板：广告、剧情、</text>
+      <text class="cardText" x="22" y="91">生活方式、音乐视频、商业片。</text>
+      <text class="micro" x="22" y="120">适合：想要“给我一个可复用配方”。</text>
+    </g>
+  </g>
+
+  <g transform="translate(505 255)">
+    <text class="groupTitle" x="0" y="0">2. 提示词生产</text>
+    <text class="groupHint" x="0" y="31">把想法写成 Seedance 能吃懂的指令</text>
+    <g transform="translate(0 68)">
+      <rect class="card" width="305" height="112" rx="22"/>
+      <text class="cardTitle" x="22" y="34">seedance-prompt</text>
+      <text class="cardText" x="22" y="64">写、改、翻译、压缩、调试</text>
+      <text class="cardText" x="22" y="89">T2V / I2V / V2V / R2V 提示词。</text>
+    </g>
+    <g transform="translate(0 204)">
+      <rect class="card" width="305" height="112" rx="22"/>
+      <text class="cardTitle" x="22" y="34">prompt-short</text>
+      <text class="cardText" x="22" y="64">30-100 词短提示、中文压缩、</text>
+      <text class="cardText" x="22" y="89">去掉不必要的描述。</text>
+    </g>
+    <g transform="translate(0 340)">
+      <rect class="card" width="305" height="112" rx="22"/>
+      <text class="cardTitle" x="22" y="34">antislop</text>
+      <text class="cardText" x="22" y="64">清理“AI味”空话，把泛泛的</text>
+      <text class="cardText" x="22" y="89">电影感改成具体制作语言。</text>
+    </g>
+    <g transform="translate(0 476)">
+      <rect class="card" width="305" height="72" rx="22"/>
+      <text class="cardTitle" x="22" y="31">sequence / continuation</text>
+      <text class="cardText" x="22" y="56">长故事拆镜头，或接续上一段画面。</text>
+    </g>
+  </g>
+
+  <g transform="translate(910 255)">
+    <text class="groupTitle" x="0" y="0">3. 导演控制</text>
+    <text class="groupHint" x="0" y="31">把画面、动作、声音管到位</text>
+    <g transform="translate(0 68)">
+      <rect class="card" width="305" height="92" rx="22"/>
+      <text class="cardTitle" x="22" y="34">camera</text>
+      <text class="cardText" x="22" y="64">机位、镜头、推拉摇移、手持、航拍。</text>
+    </g>
+    <g transform="translate(0 184)">
+      <rect class="card" width="305" height="92" rx="22"/>
+      <text class="cardTitle" x="22" y="34">lighting + style</text>
+      <text class="cardText" x="22" y="64">光线、时段、质感、美术风格、时代感。</text>
+    </g>
+    <g transform="translate(0 300)">
+      <rect class="card" width="305" height="92" rx="22"/>
+      <text class="cardTitle" x="22" y="34">motion + characters</text>
+      <text class="cardText" x="22" y="64">动作物理、走位、角色一致性、服装连续。</text>
+    </g>
+    <g transform="translate(0 416)">
+      <rect class="card" width="305" height="92" rx="22"/>
+      <text class="cardTitle" x="22" y="34">audio + vfx</text>
+      <text class="cardText" x="22" y="64">对白、口型、音乐、音效、粒子与特效。</text>
+    </g>
+  </g>
+
+  <g transform="translate(1320 255)">
+    <text class="groupTitle" x="0" y="0">4. 安全、修复、交付</text>
+    <text class="groupHint" x="0" y="31">当提示词被挡、跑偏、要上线时</text>
+    <g transform="translate(0 68)">
+      <rect class="card" width="380" height="104" rx="22"/>
+      <text class="cardTitle" x="22" y="34">copyright</text>
+      <text class="cardText" x="22" y="64">遇到名人、IP、品牌、歌曲、角色时，</text>
+      <text class="cardText" x="22" y="89">改写为更安全的原创表达。</text>
+    </g>
+    <g transform="translate(0 196)">
+      <rect class="card" width="380" height="104" rx="22"/>
+      <text class="cardTitle" x="22" y="34">filter</text>
+      <text class="cardText" x="22" y="64">提示被拒、被降级、可能触发审查时，</text>
+      <text class="cardText" x="22" y="89">保留创意意图并降低风险。</text>
+    </g>
+    <g transform="translate(0 324)">
+      <rect class="card" width="380" height="104" rx="22"/>
+      <text class="cardTitle" x="22" y="34">troubleshoot</text>
+      <text class="cardText" x="22" y="64">模糊、抖动、变形、跑题、不同步时，</text>
+      <text class="cardText" x="22" y="89">诊断原因并给修复提示。</text>
+    </g>
+    <g transform="translate(0 452)">
+      <rect class="card" width="380" height="96" rx="22"/>
+      <text class="cardTitle" x="22" y="34">pipeline</text>
+      <text class="cardText" x="22" y="64">API、ModelArk、ComfyUI、批量、</text>
+      <text class="cardText" x="22" y="87">拼接、后期与交付流程。</text>
+    </g>
+  </g>
+
+  <path class="line" d="M435 525 C455 525 455 525 475 525"/>
+  <path class="line" d="M840 525 C860 525 860 525 880 525"/>
+  <path class="line" d="M1245 525 C1265 525 1265 525 1285 525"/>
+  <path class="arrow" d="M468 518 L482 525 L468 532 Z"/>
+  <path class="arrow" d="M873 518 L887 525 L873 532 Z"/>
+  <path class="arrow" d="M1278 518 L1292 525 L1278 532 Z"/>
+
+  <g filter="url(#shadow)">
+    <rect class="panel" x="70" y="872" width="1660" height="178" rx="34"/>
+  </g>
+  <text class="groupTitle" x="102" y="925">5. 多语言与示例工具</text>
+  <text class="groupHint" x="102" y="956">当你需要换语言、找范例、或把专业术语翻译成可直接使用的提示词表达</text>
+
+  <g transform="translate(100 982)">
+    <rect x="0" y="0" width="250" height="42" rx="21" fill="#ffcf7a"/>
+    <text class="chipText" x="20" y="27">vocab-zh 中文压缩/术语</text>
+  </g>
+  <g transform="translate(368 982)">
+    <rect x="0" y="0" width="225" height="42" rx="21" fill="#a5e9d8"/>
+    <text class="chipText" x="20" y="27">vocab-en 英文精修</text>
+  </g>
+  <g transform="translate(612 982)">
+    <rect x="0" y="0" width="230" height="42" rx="21" fill="#b8c7ff"/>
+    <text class="chipText" x="20" y="27">vocab-ja 日文术语</text>
+  </g>
+  <g transform="translate(860 982)">
+    <rect x="0" y="0" width="230" height="42" rx="21" fill="#ffd0d6"/>
+    <text class="chipText" x="20" y="27">vocab-ko 韩文术语</text>
+  </g>
+  <g transform="translate(1108 982)">
+    <rect x="0" y="0" width="230" height="42" rx="21" fill="#cfe99a"/>
+    <text class="chipText" x="20" y="27">vocab-es 西语术语</text>
+  </g>
+  <g transform="translate(1356 982)">
+    <rect x="0" y="0" width="230" height="42" rx="21" fill="#e7d4ff"/>
+    <text class="chipText" x="20" y="27">vocab-ru 俄语术语</text>
+  </g>
+  <g transform="translate(100 1032)">
+    <text class="small" x="0" y="0">examples-zh / examples-ja / examples-ko：提供中文、日文、韩文示例提示、模式和安全改写范例。</text>
+  </g>
+
+  <g transform="translate(80 1068)">
+    <text class="micro" x="0" y="0">实用口诀：不知道怎么拍 → interview；要写提示词 → prompt；要更短 → prompt-short；画面不稳 → troubleshoot；涉及 IP/名人/品牌 → copyright；要上线或批量 → pipeline。</text>
+  </g>
+</svg>
