@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  html, body { margin: 0; width: 720px; height: 960px; overflow: hidden; background: #fffdf7; }
+  svg { display: block; width: 720px; height: 960px; }
+  .ink { stroke: #363330; stroke-width: 4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .thin { stroke: #817a73; stroke-width: 2; fill: none; stroke-linecap: round; }
+  .copy { fill: #242321; font: 600 29px "Songti SC", "STSong", serif; }
+</style>
+<svg viewBox="0 0 720 960" xmlns="http://www.w3.org/2000/svg" aria-label="绘本页">
+  <rect width="720" height="960" fill="#fffdf7"/>
+  <g opacity=".18" stroke="#c9c2b8" stroke-width="1">
+    <path d="M0 90 H720 M0 330 H720 M0 690 H720"/>
+  </g>
+  <text class="copy" x="58" y="88">下雨的傍晚，</text>
+  <text class="copy" x="58" y="130">小满把伞留在了门口。</text>
+  <g transform="translate(102 300)">
+    <path d="M45 420 Q245 402 527 420" class="thin" opacity=".35"/>
+    <g opacity=".45" class="thin">
+      <path d="M44 55 l-22 66 M95 35 l-11 78 M159 26 l-3 80 M475 31 l11 80 M533 48 l24 66"/>
+    </g>
+    <g transform="translate(52 70)">
+      <path d="M0 188 L0 71 Q94 -27 190 71 L190 188" fill="#ca9995" fill-opacity=".45" class="ink"/>
+      <path d="M95 70 V296" class="ink"/>
+      <path d="M95 296 q0 31 -27 31 q-23 0 -23 -20" class="ink"/>
+      <path d="M0 188 Q95 160 190 188" class="thin"/>
+    </g>
+    <g transform="translate(340 118)">
+      <ellipse cx="93" cy="89" rx="48" ry="58" fill="#fffdf7" class="ink"/>
+      <path d="M45 82 Q89 20 142 66 Q136 94 132 111 Q96 83 48 106Z" fill="#3c3530"/>
+      <path d="M67 143 L47 284 H144 L127 143 Q97 164 67 143Z" fill="#a6bcc9" fill-opacity=".60" class="ink"/>
+      <path d="M66 171 Q22 207 4 247 M128 173 q45 19 70 55" class="ink"/>
+      <path d="M70 284 L61 408 M121 284 L135 408" class="ink"/>
+      <path d="M49 410 h31 M118 410 h34" class="ink"/>
+      <path d="M75 113 q14 10 29 0" class="thin"/>
+      <circle cx="77" cy="91" r="3" fill="#363330"/><circle cx="111" cy="91" r="3" fill="#363330"/>
+    </g>
+  </g>
+  <g class="thin" opacity=".45"><path d="M65 894 q98 -9 182 0 M435 907 q90 5 221 -7"/></g>
+</svg>
